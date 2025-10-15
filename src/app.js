@@ -1,3 +1,5 @@
+import { createSidebarButtons } from './button.js';
+
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('test');
+    createSidebarButtons();
 });
