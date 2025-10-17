@@ -1,8 +1,11 @@
-export function createSidebarButtons() {
+export function createSidebarButtons() 
+{
     const sidebar = document.querySelector('aside');
-    if (!sidebar) return;
     const nav = document.createElement('nav');
+    
     nav.className = 'flex flex-col gap-10 p-4';
+    if (!sidebar) 
+        return;
     const buttons = [
         { text: 'Tableau', onClick: () => alert('test 1') },
         { text: 'Cartes', onClick: () => alert('test 2') },
