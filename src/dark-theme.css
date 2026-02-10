@@ -1,0 +1,21 @@
+.dark .bg-white { background-color: #0b0c0d !important; }
+.dark .bg-gray-50 { background-color: #0f1112 !important; }
+.dark .bg-gray-100 { background-color: #111315 !important; }
+.dark .text-gray-800 { color: #ffffff !important; }
+.dark .text-gray-600 { color: #c5c9cc !important; }
+.dark .border-gray-200 { border-color: #2b2f31 !important; }
+.dark .border-gray-700 { border-color: #3a3f42 !important; }
+
+.dark .bg-blue-500 { background-color: #374251 !important; }
+.dark .bg-green-500 { background-color: #2f7a48 !important; }
+.dark .bg-red-500 { background-color: #a63b3b !important; }
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6,
+.dark .font-semibold, .dark .font-medium, .dark .text-lg, .dark .text-base,
+.dark .text-sm, .dark .text-xs, .dark button {
+  color: #ffffff !important;
+}
+
+html, body, aside, main, header, section, .rounded, .shadow {
+  transition: background-color 180ms linear, color 180ms linear, border-color 180ms linear;
+}
